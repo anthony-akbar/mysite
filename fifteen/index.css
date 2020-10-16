@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'LCDBOLD';
+	src: url('./LCDBOLD.eot');
+	src: local('LCDBOLD'), url('./LCDBOLD.woff') format('woff'), url('./LCDBOLD.ttf') format('truetype');
+}
+.field{
+			width: 410px;
+			height: 410px;
+			border: 5px solid black;
+			border-radius: 10px;
+			position: relative;
+			margin: auto;
+		}
+		.cell{
+			box-sizing: border-box;
+			width: 100px;
+			height: 100px;
+			border: 3px solid white;
+			border-radius: 10px;
+			position: absolute;
+			font-size: 50px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			transition: all 0.3s;
+			cursor: pointer;
+			font-family: 'LCDBOLD';
+			background-image: url(block.png);
+			background-size: 100%;
+		}
